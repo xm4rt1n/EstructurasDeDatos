@@ -2,7 +2,7 @@
 #include "stdio.h"
 
 void main() {
-	float x, y, w, z;
+	float x, y;
 
 	printf("Introduce el valor de X e Y: ");
 	scanf("%f", &x);
@@ -15,10 +15,10 @@ void main() {
 	printf("\n");
 
 	printf("Introduce el desplazamiento de X e Y: ");
-	scanf("%f", &w);
-	scanf("%f", &z);
+	scanf("%f", &x);
+	scanf("%f", &y);
 
-	desplazar(&p, w, z);
+	desplazar(&p, x, y);
 
 	printf("El punto p desplazado: ");
 	escribir(p);
