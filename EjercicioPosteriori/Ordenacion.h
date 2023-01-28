@@ -21,10 +21,3 @@ void ordenacionPorSeleccion(int* array, int numElem);
 // - posFinal. Posicion en la que se termina de buscar.
 // Retorno: Posicion del minimo encontrado. 
 int minimoRelativoArray(int* array, int numElem, int posInicio, int posFinal);
-
-
-// Metodo que imprime por pantalla el array si el numero de componnenetes es <= 10. 
-// Parametros:
-// - array. Puntero que apunta al primer elemento del array.
-// - numElem. Numero de elementos que contieen el array.
-void imprimeArray(int* array, int numElem);
