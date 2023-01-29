@@ -1,2 +1,6 @@
 ﻿  Main.c
+  Punto2D.c
+C:\Users\adria\Desktop\EstructurasDeDatos\Punto2D\Punto2D.c(25,14): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\adria\Desktop\EstructurasDeDatos\Punto2D\Punto2D.c(31,2): warning C4013: 'printf' sin definir; se supone que extern devuelve como resultado int
+  Generando código...
   Punto2D.vcxproj -> C:\Users\adria\Desktop\EstructurasDeDatos\Punto2D\x64\Debug\Punto2D.exe

@@ -49,6 +49,3 @@ int minimoRelativoArray(int* array, int numElem, int posInicio, int posFinal) {
 		}
 		return minimo;
 }
-
-
-

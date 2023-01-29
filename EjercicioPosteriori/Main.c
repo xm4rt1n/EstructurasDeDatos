@@ -8,15 +8,17 @@
 
 void main() {
 	int nElementos;
-	int* array;
+	int * array;
 
 	printf("Introduce el tamano del vector (numero mayor igual que 1): ");
-	scanf("%d \n", &nElementos);
-
+	scanf("%d", &nElementos);
 
 	array = crearArray(nElementos);
 
-	imprimeArray(array, nElementos);
+	imprimeArray(&array, nElementos);
+
 
 	free(array);
+
+	printf("Acabe ");
 }

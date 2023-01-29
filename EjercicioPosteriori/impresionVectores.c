@@ -6,11 +6,12 @@ void imprimeArray(int* array, int numElem) {
 	if (numElem <= 10) {
 		for (int i = 0; i < numElem - 1; i++)
 		{
-			printf("%d ", *(array + 1));
+			printf("%d ", *(array + i));
 		}
+		printf("\n");
 	}
 	else {
-		printf("<demasiados componentes para mostar>");
+		printf("<demasiados componentes para mostar>\n");
 	}
 
 }

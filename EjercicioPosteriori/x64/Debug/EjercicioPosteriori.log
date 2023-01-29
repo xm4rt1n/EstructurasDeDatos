@@ -1,2 +1,11 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6006: "link.exe" salió con el código 1168.
-LINK : fatal error LNK1168: no se puede abrir C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\x64\Debug\EjercicioPosteriori.exe para escritura
+﻿  impresionVectores.c
+  Main.c
+C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\Main.c(16,32): warning C4047: '=': 'int *' es distinto en los niveles de direccionamiento indirecto de 'int'
+C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\Main.c(18,21): warning C4047: 'función': 'int *' es distinto en los niveles de direccionamiento indirecto de 'int **'
+C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\Main.c(18,15): warning C4024: 'imprimeArray': tipos distintos para el parámetro formal y el parámetro real 1
+  Ordenacion.c
+C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\Ordenacion.c(14,8): warning C4013: 'time' sin definir; se supone que extern devuelve como resultado int
+C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\Ordenacion.c(22,14): warning C4047: 'return': 'int' es distinto en los niveles de direccionamiento indirecto de 'int *'
+  ordenacionQuickSort.c
+  Generando código...
+LINK : fatal error LNK1104: no se puede abrir el archivo 'C:\Users\adria\Desktop\EstructurasDeDatos\EjercicioPosteriori\x64\Debug\EjercicioPosteriori.exe'
