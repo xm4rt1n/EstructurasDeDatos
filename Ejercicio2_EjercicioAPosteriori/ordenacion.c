@@ -23,7 +23,6 @@ int* crearArray(int numElem) {
 }
 
 
-
 void ordenacionPorSeleccion(int* array, int numElem) {
 	for (int i = 0; i < numElem - 1; i++) {
 		int minimo = i;

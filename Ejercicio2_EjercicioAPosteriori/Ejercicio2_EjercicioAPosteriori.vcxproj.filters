@@ -24,12 +24,18 @@
     <ClCompile Include="impresionVectores.c">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="ordenacionQuickSort.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ordenacion.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="impresionVectores.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ordenacionQuickSort.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

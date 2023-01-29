@@ -132,10 +132,12 @@
     <ClCompile Include="impresionVectores.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="ordenacion.c" />
+    <ClCompile Include="ordenacionQuickSort.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="impresionVectores.h" />
     <ClInclude Include="ordenacion.h" />
+    <ClInclude Include="ordenacionQuickSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
