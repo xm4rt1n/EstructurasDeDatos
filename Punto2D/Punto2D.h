@@ -24,9 +24,11 @@ void desplazar(Punto2D* punto, float desplazaX, float desplazaY);
 
 // Calcula la distancia de un punto dado al origen de coordenadas (0, 0).
 // Parametros:
-// - punto. Puntero al punto.
+// - punto. Punto al cuya distancia al origen queremos calcular.
 // Retorno: Valor de la distancia del punto al origen. 
 float calcularDistanciaAlOrigen(Punto2D punto);
 
-
+// Visutaliza el punto por pantalla de forma (x, y)
+// Parametro: 
+// - punto. Punto que queremos visualizar.
 void escribir(Punto2D punto);
