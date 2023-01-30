@@ -1,1 +1,3 @@
-﻿  Ejercicio2_EjercicioAPosteriori.vcxproj -> C:\Users\adria\Desktop\EstructuraDeDatos\Ejercicio2_EjercicioAPosteriori\x64\Debug\Ejercicio2_EjercicioAPosteriori.exe
+﻿  ordenacion.c
+C:\Users\adria\Desktop\EstructuraDeDatos\Ejercicio2_EjercicioAPosteriori\ordenacion.c(14,8): warning C4013: 'time' sin definir; se supone que extern devuelve como resultado int
+  Ejercicio2_EjercicioAPosteriori.vcxproj -> C:\Users\adria\Desktop\EstructuraDeDatos\Ejercicio2_EjercicioAPosteriori\x64\Debug\Ejercicio2_EjercicioAPosteriori.exe

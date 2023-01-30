@@ -25,16 +25,13 @@ int* crearArray(int numElem) {
 
 void ordenacionPorSeleccion(int* array, int numElem) {
 	for (int i = 0; i < numElem - 1; i++) {
-		int minimo = i;
-		for (int j = i + 1; j < numElem; j++) {
-			if (array[j] < array[minimo]) {
-				minimo = j;
-			}
-		}
+		int minimo = minimoRelativoArray(array, numElem, i, numElem - 1);
+
 		int aux = array[i];
 		array[i] = array[minimo];
 		array[minimo] = aux;
 	}
+
 }
 
 
