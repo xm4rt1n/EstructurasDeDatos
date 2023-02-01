@@ -1,3 +1,4 @@
+#pragma once
 
 // Metodo para crear un array
 // Parametros:
@@ -10,6 +11,7 @@ int* crearArray(int numElem);
 // Parametros:
 // - array. Puntero que apunta al primer elemento del array.
 // - numElem. Numero de elementos que contieen el array.
+// Precondicion: vector!=NULL
 void ordenacionPorSeleccion(int* array, int numElem);
 
 
@@ -20,4 +22,5 @@ void ordenacionPorSeleccion(int* array, int numElem);
 // - posInicio. Posicion en la que se empieza a buscar.
 // - posFinal. Posicion en la que se termina de buscar.
 // Retorno: Posicion del minimo encontrado. 
+// Precondiciones: posInicio>=0 && posFinal<n && posInicio <= posFinal && vector!=NULL
 int minimoRelativoArray(int* array, int numElem, int posInicio, int posFinal);
