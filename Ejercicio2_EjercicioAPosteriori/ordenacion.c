@@ -1,6 +1,7 @@
 #include "ordenacion.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 int* crearArray(int numElem) {
 	int* array;
@@ -24,6 +25,8 @@ int* crearArray(int numElem) {
 
 
 void ordenacionPorSeleccion(int* array, int numElem) {
+	assert(array != NULL);
+
 	for (int i = 0; i < numElem - 1; i++) {
 		int minimo = minimoRelativoArray(array, numElem, i, numElem - 1);
 
@@ -37,6 +40,11 @@ void ordenacionPorSeleccion(int* array, int numElem) {
 
 
 int minimoRelativoArray(int* array, int numElem, int posInicio, int posFinal) {
+	assert(posInicio >= 0);
+	assert(posInicio <= posFinal);
+	assert(posFinal < numElem);
+	assert(array != NULL);
+
 	int minimo = posInicio;
 	for (int j = posInicio + 1; j <= posFinal; j++) {
 		if (array[j] < array[minimo]) {

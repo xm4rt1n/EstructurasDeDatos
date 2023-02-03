@@ -2,4 +2,5 @@
 // Parametros:
 // - array. Puntero que apunta al primer elemento del array.
 // - numElem. Numero de elementos que contieen el array.
+// Precondiciones: array != NULL
 void imprimeArray(int* array, int numElem);
