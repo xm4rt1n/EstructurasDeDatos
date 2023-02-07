@@ -1,0 +1,2 @@
+assert() --> precondiciones.
+memcpy --> copia un array en otro.
